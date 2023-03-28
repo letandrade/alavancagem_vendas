@@ -18,8 +18,6 @@ de materiais para que pudesse desenvolver uma estratégia.
 
 Utilizei o modelo K-means para clusterizar os materiais em grupos com característica comuns, e através desse modelo, melhorar os resultado de vendas da empresa. Como métricas de performance do cluster foi usado o índice de silhueta e o método do cotovelo. Foram gerados 2 grupos (0 e 1), sendo  o  cluster 1 o mais relevante por representar 50,38% da receita líquida com apenas 58 materiais, o que representa a oportunidade de desenvolver uma estratégia de venda com baixo esforço de implementação e alto impacto financeiro.
 
-A análise mais detalhada do cluster 1 encontra-se comentada no código e na apresentação dos resultados. 
-
 ### 3) Classificação dos materiais – Cluster 1
 
 Com o resultado do cluster foi possível verificar que o grupo mais relevante para alavancagem de vendas é cluster 1, sendo assim iniciou-se uma tarefa de aprendizagem supervisonada para classificar os produtos em pertencentes ao cluster 1 (1) e não pertencente ao cluster 1 (0). Esse modelo é importante para classificar novos materiais de acordo com o desempenho das variáveis históricas. Além disso, a classificação desses materiais traz a vantagem do conhecimento prévio do comportamento do material,ou seja, quais canais,regiões, marcas, categorias, campanhas e outras variáveis com as quais o material performa melhor em venda.
@@ -52,4 +50,4 @@ O modelo campeão para prever a receita líquida dos materiais do cluster 1 foi 
 <p>➝ Mean absolute percentage error(MAPE): 0.726
 <p>➝ R² Score: 0.809
   
-Para ter acesso aos resultados detalhados consulte o código e a apresentação de resultados. 
+### Para ter acesso aos resultados detalhados consulte o código e a apresentação de resultados.
