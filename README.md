@@ -44,3 +44,12 @@ O modelo campeão para prever a quantidade bruta de vendas dos materiais do clus
 <p>R² Score: 0.786
 
 ### 5) Previsão da receita líquida – Cluster 3
+  
+O modelo campeão para prever a receita líquida dos materiais do cluster 1 foi o Random Forest Regression com feature selection, com a seguinte performance:
+  
+<p>➝ Mean absolute error (MAE): 1678680.315
+<p>➝ Mean squared error (MSE): 18468268225530.199
+<p>➝ Mean absolute percentage error(MAPE): 0.726
+<p>➝ R² Score: 0.809
+  
+Para ter acesso aos resultados detalhados consulte o código e a apresentação de resultados. 
