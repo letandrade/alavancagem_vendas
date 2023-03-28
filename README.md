@@ -26,19 +26,19 @@ Sobre as campanhas de venda, a parcela maior de participação (6,61% da quantid
 
 Estratégias de venda para o cluster 1:
 
-Desenvolver campanhas de marketing que enfatizem o valor dos materiais para o cliente, independente do preço do material. É um cluster com materiais de valor agregado alto que precisa ser alinhado a um público-alvo específico, os que não se preocupam com preço, mas esperam valor (qualidade, diferenciação e outros) no material.
+➝ Desenvolver campanhas de marketing que enfatizem o valor dos materiais para o cliente, independente do preço do material. É um cluster com materiais de valor agregado alto que precisa ser alinhado a um público-alvo específico, os que não se preocupam com preço, mas esperam valor (qualidade, diferenciação e outros) no material.
 
-Garantir uma boa experiência de compra. Investir em um ambiente acolhedor, atendimento atencioso, transparência sobre as características dos produtos e flexibilidade de opções.
+➝ Garantir uma boa experiência de compra. Investir em um ambiente acolhedor, atendimento atencioso, transparência sobre as características dos produtos e flexibilidade de opções.
 
-É necessário direcionar os produtos para canais e regiões específicas,fazer uma boa análise dos dados garante um bom escoamento do produto.
+➝ É necessário direcionar os produtos para canais e regiões específicas,fazer uma boa análise dos dados garante um bom escoamento do produto.
 
-Como o sucesso desse cluster depende principalmente do match com o público-alvo, investir em estratégias de marketing inbound para conseguir novos cliente. Segundo SIQUEIRA,"No Inbound Marketing, é o cliente que procura pela empresa e não o contrário. Ou seja, são realizadas ações com o intuito de atrair o potencial cliente para seu blog ou site e, a partir dessa atração, é feito todo um trabalho de relacionamento com essa pessoa. Esse relacionamento é desempenhado por meio de conteúdo personalizado e autoral".
+➝ Como o sucesso do cluster 1 depende principalmente do match com o público-alvo, investir em estratégias de marketing inbound para conseguir novos cliente. Segundo SIQUEIRA,"No Inbound Marketing, é o cliente que procura pela empresa e não o contrário. Ou seja, são realizadas ações com o intuito de atrair o potencial cliente para seu blog ou site e, a partir dessa atração, é feito todo um trabalho de relacionamento com essa pessoa. Esse relacionamento é desempenhado por meio de conteúdo personalizado e autoral".
 
-Outra estratégia para obter novos clientes é a demonstração do produto, nesse momento o cliente conhecerá o produto e despertará o desejo de compra.
+➝ Outra estratégia para obter novos clientes é a demonstração do produto, nesse momento o cliente conhecerá o produto e despertará o desejo de compra.
 
-Para produtos com valor alto é uma estratégia investir em um pós-venda com serviços acima da média, o que gera valor aos olhos do cliente, atende a expectativa de diferenciação e retém o público-alvo.
+➝ Para produtos com valor alto é uma estratégia investir em um pós-venda com serviços acima da média, o que gera valor aos olhos do cliente, atende a expectativa de diferenciação e retém o público-alvo.
 
-Para complementar a estratégia de vendas foi desenvolvido um modelo de classificação para identificar os materiais do cluster 1 e 2 modelos de regressão para prever a quantidade de venda bruta e valor de receita líquida do cluster 1.
+➝ Para complementar a estratégia de vendas foi desenvolvido um modelo de classificação para identificar os materiais do cluster 1 e 2 modelos de regressão para prever a quantidade de venda bruta e valor de receita líquida do cluster 1.
 
 Comentários sobre o cluster 0
 
