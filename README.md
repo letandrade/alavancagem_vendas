@@ -40,7 +40,4 @@ Estratégias de venda para o cluster 1:
 
 ➝ Para complementar a estratégia de vendas foi desenvolvido um modelo de classificação para identificar os materiais do cluster 1 e 2 modelos de regressão para prever a quantidade de venda bruta e valor de receita líquida do cluster 1.
 
-Comentários sobre o cluster 0
-
-O cluster 0 representa do 49,62% do total de vendas líquidas e 64,83% da quantidade total de vendas, no entanto, esse cluster possui 2172 materiais únicos, essa quantidade quando comparada a quantidade de materiais do cluster 0 (53 materiais) evidencia o alto esforço para desenvolver uma estratégia de alavancagem de venda nesse cluster.
 
