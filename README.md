@@ -30,11 +30,11 @@ O modelo campeão foi um XGBClassifier treinado com as variáveis selecionadas p
 
 As previsões da quantidade bruta de vendas e da receita líquida para os materiais do cluster 1 são importantes para conhecermos o comportamento da venda, além disso, traz benefícios como:
 
-➝ Controle de estoque (Maior acuracidade e menos custos com estoque excessivo).
-➝ Com a previsão é possível encontrar pontos de maior venda e elaborar ações de marketing eficientes.
-➝ Traz a possibilidade de preparar a equipe de vendas para uma alta demanda.
-➝ Possibilita gerar expectativas corretas sobre o faturamento esperado.
-➝ Ajuda a empresa a conhecer melhor o seu público-alvo e direcionar uma abordagem de vendas mais assertiva.
+<p>➝ Controle de estoque (Maior acuracidade e menos custos com estoque excessivo).
+<p>➝ Com a previsão é possível encontrar pontos de maior venda e elaborar ações de marketing eficientes.
+<p>➝ Traz a possibilidade de preparar a equipe de vendas para uma alta demanda.
+<p>➝ Possibilita gerar expectativas corretas sobre o faturamento esperado.
+<p>➝ Ajuda a empresa a conhecer melhor o seu público-alvo e direcionar uma abordagem de vendas mais assertiva.
 
 O modelo campeão para prever a quantidade bruta de vendas dos materiais do cluster 1 foi o Random Forest com feature selection,com a seguinte performance:
 
