@@ -30,9 +30,9 @@ O modelo campeão foi um XGBClassifier treinado com as variáveis selecionadas p
 
 O modelo campeão foi o Random Forest com feature selection.
 
-Mean absolute error (MAE): 21698.916
-Mean squared error (MSE): 2508817703.987
-Mean absolute percentage error(MAPE): 0.479
-R² Score: 0.786
+<p>Mean absolute error (MAE): 21698.916
+<p>Mean squared error (MSE): 2508817703.987
+<p>Mean absolute percentage error(MAPE): 0.479
+<p>R² Score: 0.786
 
 ### 5) Previsão da receita líquida – Cluster 3
