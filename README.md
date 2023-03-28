@@ -36,7 +36,7 @@ As previsões da quantidade bruta de vendas e da receita líquida para os materi
 <p>➝ Possibilita gerar expectativas corretas sobre o faturamento esperado.
 <p>➝ Ajuda a empresa a conhecer melhor o seu público-alvo e direcionar uma abordagem de vendas mais assertiva.
 
-O modelo campeão para prever a quantidade bruta de vendas dos materiais do cluster 1 foi o Random Forest com feature selection,com a seguinte performance:
+O modelo campeão para prever a quantidade bruta de vendas dos materiais do cluster 1 foi o Random Forest com feature selection, com a seguinte performance:
 
 <p>Mean absolute error (MAE): 21698.916
 <p>Mean squared error (MSE): 2508817703.987
