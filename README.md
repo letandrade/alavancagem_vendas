@@ -9,7 +9,7 @@ A resolução do problema foi dividida nos seguintes tópicos:
 
 ### 1) Contextualização
 
-Nessa fase eu fui entender o que cada variável significava e como elas estavam relacionadas com o problema de negócio.
+Na primeira etapa, busquei entender o que cada variável significava e como elas estavam relacionadas com o problema de negócio.
 Um ponto importante é que nessa primeira etapa verifiquei que a quantidade de materiais era grande (2230 materiais únicos)
 e que por esse motivo seria difícil desenvolver uma estratégia de vendas material a material, logo decidi criar agrupamentos
 de materiais para que pudesse desenvolver uma estratégia. 
