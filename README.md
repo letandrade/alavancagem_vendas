@@ -22,7 +22,12 @@ Utilizei o modelo K-means para clusterizar os materiais em grupos com caracterí
 
 Com o resultado do cluster foi possível verificar que o grupo mais relevante para alavancagem de vendas é cluster 1, sendo assim iniciou-se uma tarefa de aprendizagem supervisonada para classificar os produtos em pertencentes ao cluster 1 (1) e não pertencente ao cluster 1 (0). Esse modelo é importante para classificar novos materiais de acordo com o desempenho das variáveis históricas. Além disso, a classificação desses materiais traz a vantagem do conhecimento prévio do comportamento do material,ou seja, quais canais,regiões, marcas, categorias, campanhas e outras variáveis com as quais o material performa melhor em venda.
 
-O modelo campeão foi um XGBClassifier treinado com as variáveis selecionadas pelo método RFE (Recursive Feature Elimination). Apresenta acuracidade de ~ 96,8% e recall ~ 67%.
+O modelo campeão foi um XGBClassifier treinado com as variáveis selecionadas pelo método RFE (Recursive Feature Elimination), com a seguinte performance:
+
+<p>Accuracy: 96,8%
+<p>Precision: 77,00%
+<p>Recall: 67,00%
+<p>F1 - Score: 72,00%
 
 ### 4) Previsão da quantidade bruta de vendas – Cluster 1
 
