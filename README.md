@@ -45,5 +45,5 @@ O modelo campeão para prever a quantidade bruta de vendas dos materiais do clus
 <p>Mean squared error (MSE): 2508817703.987
 <p>Mean absolute percentage error(MAPE): 0.479
 <p>R² Score: 0.786
-
+ 
 ### Para ter acesso aos resultados detalhados consulte o código e a apresentação de resultados.
