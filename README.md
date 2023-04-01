@@ -6,6 +6,9 @@ O objetivo deste case é trazer insights sobre o que um time de uma empresa fict
 
 ### 2.0 Como usar o projeto
 
+➝ Linguagem Python
+<p>➝ Base em csv
+
 ### 3.0 Desenvolvimento e resultados
 
 Para desenvolver as análises foi importado o dataset "base.csv" com as seguintes variáveis:
@@ -24,6 +27,12 @@ de materiais para que pudesse desenvolver uma estratégia.
 ### 3.2) Segmentação dos materiais (Clusterização)
 
 Utilizei o modelo K-means para clusterizar os materiais em grupos com característica comuns, e através desse modelo, melhorar os resultado de vendas da empresa. Como métricas de performance do cluster foi usado o índice de silhueta e o método do cotovelo. Foram gerados 2 grupos (0 e 1), sendo  o  cluster 1 o mais relevante por representar 50,38% da receita líquida com apenas 58 materiais, o que representa a oportunidade de desenvolver uma estratégia de venda com baixo esforço de implementação e alto impacto financeiro.
+
+O cluster 1 é o grupo de materiais de alto valor agregado (Média de preço: 839,95 reais) e uma boa recência em ciclos (Média de recência nos últimos 10 ciclos: 9,81 de 10), frequência em ciclos (Média de frequência: 44 de 52) e ticket-médio por ciclo (Média de ticket por ciclo: ~ 23 Milhões de reais).
+
+Para alavancar as vendas é necessário focar no canal anon_s7(31,14% da venda líquida total), na categoria anon_S12 (43,30% da venda líquida total), e região anon_S1 (28,60% da venda líquida total). Além disso, o cluster possui uma quantidade pequena de 19 marcas.
+
+A campanha de venda mais relevante no cluster 1 foi a campanha B pois há uma correlação positiva alta de ~ 60% entre a quantidade de campanhas realizadas e o valor de receita líquida. Como alternativa a campanha B, sugiro uma redistribuição dos investimentos das campanhas A e C para a campanha D.
 
 ### 3.3) Classificação dos materiais – Cluster 1
 
