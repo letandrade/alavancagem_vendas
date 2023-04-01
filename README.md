@@ -1,5 +1,12 @@
 # Problema de alavancagem de vendas em uma empresa fictícia do ramo do varejo 
+
+### 1.0 Descrição 
 O objetivo deste case é trazer insights sobre o que um time de uma empresa fictícia do ramo do varejo poderia fazer para alavancar as vendas via análise de dados e machine learning. 
+Para criar uma estratégia de alavancagem de vendas priorizei um grupo de materias que representa uma oportunidade de aumento de vendas com baixo esforço de implementação e relevante impacto financeiro. Além disso, desenvolvi um modelo de classificação dos materiais com o objetivo de identificar os materiais do grupo priorizado e um modelo de regressão para prever a quantidade bruta de vendas dos materias
+
+### 2.0 Como usar o projeto
+
+### 3.0 Desenvolvimento e resultados
 
 Para desenvolver as análises foi importado o dataset "base.csv" com as seguintes variáveis:
 
@@ -7,18 +14,18 @@ Para desenvolver as análises foi importado o dataset "base.csv" com as seguinte
 
 A resolução do problema foi dividida nos seguintes tópicos:
 
-### 1) Contextualização
+### 3.1) Contextualização
 
 Na primeira etapa, busquei entender o que cada variável significava e como elas estavam relacionadas com o problema de negócio.
 Um ponto importante é que nessa primeira etapa verifiquei que a quantidade de materiais era grande (2230 materiais únicos)
 e que por esse motivo seria difícil desenvolver uma estratégia de vendas material a material, logo decidi criar agrupamentos
 de materiais para que pudesse desenvolver uma estratégia. 
 
-### 2) Segmentação dos materiais (Clusterização)
+### 3.2) Segmentação dos materiais (Clusterização)
 
 Utilizei o modelo K-means para clusterizar os materiais em grupos com característica comuns, e através desse modelo, melhorar os resultado de vendas da empresa. Como métricas de performance do cluster foi usado o índice de silhueta e o método do cotovelo. Foram gerados 2 grupos (0 e 1), sendo  o  cluster 1 o mais relevante por representar 50,38% da receita líquida com apenas 58 materiais, o que representa a oportunidade de desenvolver uma estratégia de venda com baixo esforço de implementação e alto impacto financeiro.
 
-### 3) Classificação dos materiais – Cluster 1
+### 3.3) Classificação dos materiais – Cluster 1
 
 Com o resultado do cluster foi possível verificar que o grupo mais relevante para alavancagem de vendas é cluster 1, sendo assim iniciou-se uma tarefa de aprendizagem supervisonada para classificar os produtos em pertencentes ao cluster 1 (1) e não pertencente ao cluster 1 (0). Esse modelo é importante para classificar novos materiais de acordo com o desempenho das variáveis históricas. Além disso, a classificação desses materiais traz a vantagem do conhecimento prévio do comportamento do material,ou seja, quais canais,regiões, marcas, categorias, campanhas e outras variáveis com as quais o material performa melhor em venda.
 
@@ -29,7 +36,7 @@ O modelo campeão foi um XGBClassifier treinado com as variáveis selecionadas p
 <p>Recall: 67,00%
 <p>F1 - Score: 72,00%
 
-### 4) Previsão da quantidade bruta de vendas – Cluster 1
+### 3.4) Previsão da quantidade bruta de vendas – Cluster 1
 
 A previsão da quantidade bruta de vendas é importante para conhecermos o comportamento da venda, além disso, traz benefícios como:
 
@@ -45,5 +52,7 @@ O modelo campeão para prever a quantidade bruta de vendas dos materiais do clus
 <p>Mean squared error (MSE): 2508817703.987
 <p>Mean absolute percentage error(MAPE): 0.479
 <p>R² Score: 0.786
+ 
+ ### 4.0 Conclusão
  
 ### Para ter acesso aos resultados detalhados consulte o código e a apresentação de resultados.
