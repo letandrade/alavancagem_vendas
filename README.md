@@ -34,7 +34,7 @@ Para alavancar as vendas é necessário focar no canal anon_s7(31,14% da venda l
 
 A campanha de venda mais relevante no cluster 1 foi a campanha B pois há uma correlação positiva alta de ~ 60% entre a quantidade de campanhas realizadas e o valor de receita líquida. Como alternativa a campanha B, sugiro uma redistribuição dos investimentos das campanhas A e C para a campanha D.
 
-### 3.3) Classificação dos materiais – Cluster 1
+### 3.3) Classificação dos materiais
 
 Com o resultado do cluster foi possível verificar que o grupo mais relevante para alavancagem de vendas é cluster 1, sendo assim iniciou-se uma tarefa de aprendizagem supervisonada para classificar os produtos em pertencentes ao cluster 1 (1) e não pertencente ao cluster 1 (0). Esse modelo é importante para classificar novos materiais de acordo com o desempenho das variáveis históricas. Além disso, a classificação desses materiais traz a vantagem do conhecimento prévio do comportamento do material,ou seja, quais canais,regiões, marcas, categorias, campanhas e outras variáveis com as quais o material performa melhor em venda.
 
@@ -45,7 +45,7 @@ O modelo campeão foi um XGBClassifier treinado com as variáveis selecionadas p
 <p>Recall: 67,00%
 <p>F1 - Score: 72,00%
 
-### 3.4) Previsão da quantidade bruta de vendas – Cluster 1
+### 3.4) Previsão da quantidade bruta de vendas por ciclo dos materiais do cluster 1
 
 A previsão da quantidade bruta de vendas é importante para conhecermos o comportamento da venda, além disso, traz benefícios como:
 
@@ -63,5 +63,11 @@ O modelo campeão para prever a quantidade bruta de vendas dos materiais do clus
 <p>R² Score: 0.786
  
  ### 4.0 Conclusão
+ 
+A proposta de solução trouxe insights relevantes sobre os melhores canais, regiões, categorias, campanhas e outras características onde o cluster 1 tem uma boa performance de receita líquida. Ter o perfil de um grupo de materiais mapeado é essencial para se ter um bom escoamento do estoque. 
+ 
+Com o modelo de classificação foi possível verificar as variáveis que possuem maior influência na classificação dos materiais como pertencentes ao cluster 1. E com o modelo de regressão foi possível prever a quantidade bruta de vendas por ciclo dos materiais do cluster 1. 
+
+ É preciso dizer que os modelos de classificação e previsão criados podem ser aplicados a materiais novos do cluster 1, no entanto, o ideal é que esses produtos apresentem um período transacional de pelo menos 6 meses. 
  
 ### Para ter acesso aos resultados detalhados consulte o código e a apresentação de resultados.
