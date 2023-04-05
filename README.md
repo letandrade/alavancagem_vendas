@@ -1,4 +1,4 @@
-# Problema de alavancagem de vendas em uma empresa fictícia do ramo de varejo 
+# Alavancagem de vendas em uma empresa do ramo de varejo 
 
 ### 1.0 Descrição 
 O objetivo deste case é trazer insights sobre o que um time de uma empresa fictícia do ramo de varejo poderia fazer para alavancar as vendas via análise de dados e machine learning. 
