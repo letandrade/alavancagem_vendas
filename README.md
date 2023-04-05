@@ -2,7 +2,7 @@
 
 ### 1.0 Descrição 
 O objetivo deste case é trazer insights sobre o que um time de uma empresa do ramo de varejo poderia fazer para alavancar as vendas via análise de dados e machine learning. 
-<p>Por questões de segurança o nome da empresa e dados foram anonimizados.
+<p>Por questões de segurança o nome da empresa e os dados foram anonimizados.
 <p>Para criar uma estratégia de alavancagem de vendas priorizei um grupo de materias que representa uma oportunidade de aumento de vendas com baixo esforço de implementação e relevante impacto financeiro. Além disso, desenvolvi um modelo de classificação dos materiais com o objetivo de identificar os materiais do grupo priorizado e um modelo de regressão para prever a quantidade bruta de vendas dos materiais.
 
 ### 2.0 Como usar o projeto
