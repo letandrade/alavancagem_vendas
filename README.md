@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/86376728/230117642-1e39b577-2cd3-40ac-9c20-49b7c804a2d7.png)
+
 # Alavancagem de vendas em uma empresa do ramo de varejo 
 
 ### 1.0 Descrição 
